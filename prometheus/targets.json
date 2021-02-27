@@ -1,0 +1,10 @@
+[
+    {
+        "labels": {
+        "job": "rpi"
+        },
+        "targets": [
+            "PROMETHEUS_IP:8001"
+        ]
+    }
+    ]

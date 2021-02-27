@@ -1,0 +1,9 @@
+[Unit]
+Description=dht exporter
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/dht_exporter/sensor_prometheus.py
+
+[Install]
+WantedBy=default.target
